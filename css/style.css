@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    font: 42px;
+    font-size: 42px;
     text-align: center;
     padding: 15px;
 }
@@ -28,12 +28,12 @@ div{
 }
 
 h2 {
-    font: 30px;
+    font-size: 30px;
     color: #0D0D0D;
 }
 
 p {
-    font: 24px;
+    font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -106,7 +106,7 @@ footer {
 }
 
 footer > p {
-    font: 20px;
+    font-size: 20px;
     text-align: right;
     padding-top: 15px;
     padding-right: 15px;
