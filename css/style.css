@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px 20px 0px;
+}
+
+h1 {
+    font: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed 10px #ffffff;
+}
+
+div{
+    /* flexible height here */
+    min-height: 125px;
+    padding: 20px;
+    border: solid 3px #ffffff;
+}
+
+h2 {
+    font: 30px;
+    color: #0D0D0D;
+}
+
+p {
+    font: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* introduction class */
+div.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2.0;
+}
+/* red class */
+div.red {
+    background-color: red;
+    text-align: right;
+    margin-left: 50px;
+    border-top: 2px;
+    border-right: 5px;
+    color: #ffffff;
+}
+
+div.red > p {
+    color: #ffffff;
+}
+/* the blue div */
+div.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-left: 5px;
+    border-bottom: 2px;
+}
+
+div.blue > h2, p {
+    color:  #C4C4C4;
+}
+
+/* the yellow div */
+div.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+div.yellow > p {
+    color: #707070;
+}
+
+/* the green div */
+div.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-left: 5px;
+    border-bottom: 2px;
+}
+
+div.green > h2 {
+    color: #000000;
+}
+
+div.green > p {
+    color: #ffffff;
+}
+
+footer {
+    background-image: linear-gradient(to right, #000000, #0000ff, #0066ff, #000000);
+    border: solid 5px #ffffff;
+}
+
+footer > p {
+    font: 20px;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+/* footer paragraphs */
